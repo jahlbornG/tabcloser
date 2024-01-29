@@ -62,6 +62,10 @@ const predefinedUrlPatterns = [
     label: ' Zoom Joins',
     pattern: '^https?://([a-z0-9-]+\\.)?zoom\\.us/j/[^/]+#success$',
   },
+  {
+    label: ' AWS VPN',
+    pattern: '^http://127.0.0.1:35001/$',
+  },
 ];
 
 function shouldCloseTab(url) {
